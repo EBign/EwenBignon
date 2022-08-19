@@ -158,11 +158,12 @@ mark{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.2em;
   text-align: left;
-  padding-left: 330px;
-  padding-top: 95px;
+  padding-left: 260px;
+  padding-top: 105px;
   font-weight: lighter;
   color: silver;
   line-height: 30px;
+  width: 400px;
   transform: scale(1.8);
 }
 footer{
