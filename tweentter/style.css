@@ -1,0 +1,182 @@
+html{
+  scroll-behavior: smooth;
+  color: black;
+}
+body{
+height: 3000px;
+width: 100%;
+background-color: rgb(29, 24, 41);
+margin: 0;
+padding: 0;
+text-align: center;
+display: block;
+min-width: fit-content;
+}
+header{
+  height: 1000px;
+}
+.fleche{
+  position: fixed;
+  left: 40px;
+  top: 80px;
+  height: 40px;
+  width: auto;
+  z-index: 10;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+}
+h1{
+  position: absolute;
+  left: 40px;
+  top: 400px;
+  color: floralwhite;
+  font-family: arial;
+  font-size: 40px;
+}
+h2{
+  color: dimgrey;
+  font-family: arial;
+  font-size: 30px;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 40px;
+  top: 470px;
+}
+.baniere{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+.chiffres{
+  display: flex;
+  position: absolute;
+  top: 600px;
+  left: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: floralwhite;
+}
+mark{
+  background-color: transparent;
+  font-size: 30px;
+  color: dimgrey;
+  font-weight: lighter;
+  padding-top: 5px;
+}
+.profil{
+  position: absolute;
+  left: 40px;
+  top: 200px;
+  width: 180px;
+  height: 180px;
+  border-radius: 400px;
+  border: #1e90ff solid 1px;
+}
+.tweet{
+  display: flex;
+  text-align: left;
+}
+.profiltweet{
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  width: 140px;
+  height: auto;
+  border-radius: 400px;
+  border: #1e90ff solid 1px;
+}
+.name{
+  position: absolute;
+  top: 5px;
+  left: 200px;
+  color: floralwhite;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.blase{
+  position: absolute;
+  top: 5px;
+  left: 380px;
+  color: dimgray;
+  font-family: arial;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.actions{
+  position: absolute;
+  top: 700px;
+  display: flex;
+  text-align: left;
+  padding-left: 40px;
+}
+.actionsp{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: dimgrey;
+  margin-right: 120px;
+  font-weight: bold;
+}
+#actif{
+  color: white;
+}
+.post{
+  position: relative;
+  margin-top: -100px;
+  border-bottom: 1px solid dimgray;
+  border-top: 1px solid dimgray;
+  padding-bottom: 30px;
+}
+.actionspost{
+  display: flex;
+  text-align: left;
+  padding-left: 200px;
+  margin-top: 150px;
+  width: 600px;
+  justify-content: space-between;
+}
+.infos img{
+  width: 40px;
+  height: 40px;
+}
+.barre{
+  position: absolute;
+  top: 800px;
+  left: 40px;
+  background-color: #1e90ff;
+  width: 120px;
+  height: 8px;
+}
+.description{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+  padding-left: 330px;
+  padding-top: 95px;
+  font-weight: lighter;
+  color: silver;
+  line-height: 30px;
+  transform: scale(1.8);
+}
+footer{
+  height: 0;
+  background-color: black;
+  display: block;
+  text-align: center;
+  margin-top: 0;
+}
+footer h2{
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+ padding-top: 10px;
+}
+
