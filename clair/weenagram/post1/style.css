@@ -1,0 +1,153 @@
+html{
+  scroll-behavior: smooth;
+  color: black;
+}
+body{
+height: 3000px;
+width: 100%;
+background-color: floralwhite;
+margin: 0;
+padding: 0;
+text-align: center;
+display: block;
+min-width: fit-content;
+}
+header{
+  height: 250px;
+}
+.fleche{
+  position: fixed;
+  left: 40px;
+  top: 80px;
+  height: 40px;
+  width: auto;
+  z-index: 10;
+}
+h1{
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  color: black;
+  font-family: arial;
+  font-size: 40px;
+}
+h2{
+  color: black;
+  font-family: arial;
+  font-size: 30px;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 180px;
+  top: 20px;
+}
+p{
+  text-align: left;
+  width: 86%;
+  font-size: 20px;
+  padding-bottom: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 70px;
+  color: black;
+}
+.profil{
+  position: absolute;
+  left: 40px;
+  top: -140px;
+  width: 100px;
+  height: 100px;
+  border-radius: 400px;
+  border: black solid 1px;
+}
+.feed{
+  position: relative;
+  margin-top: 10px;
+}
+.feed img, .feed video{
+  width: 100%;
+  margin-top: 150px;
+}
+.feed .profil{
+  width: 100px;
+  height: auto;
+}
+.actions{
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  margin-top: -50;
+}
+.actions img{
+  width: 50px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.description{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+}
+footer{
+  height: 0;
+  background-color: black;
+  display: block;
+  text-align: center;
+  margin-top: 0;
+}
+footer h2{
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+ padding-top: 10px;
+}
+footer p{
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+
+@media screen and (min-width: 1000px){
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 22px;
+    height: 100px;
+  }
+  h4{
+    font-size: 14px;
+    font-family: arial;
+    margin-top: 200px;
+    margin-right: 100px;
+  }
+  p{
+    text-align: justify;
+    font-size: 18px;
+    width: 300px;
+    height: 50px;
+  }
+  img{
+    width: 300px;
+    height: 300px;
+  }
+  .son{
+    transform: scale(0.6);
+  }
+  section{
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 97%);
+  }
+  .themes{
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+  }
+  a{
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  nav{
+    height: auto;
+  }
+}
