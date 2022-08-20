@@ -1,0 +1,185 @@
+html{
+  scroll-behavior: smooth;
+  color: black;
+}
+body{
+height: 3000px;
+width: 100%;
+background-color: floralwhite;
+margin: 0;
+padding: 0;
+text-align: center;
+display: block;
+min-width: fit-content;
+}
+header{
+  height: 810px;
+}
+.fleche{
+  position: fixed;
+  left: 40px;
+  top: 80px;
+  height: 40px;
+  width: auto;
+  z-index: 10;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+}
+h1{
+  position: absolute;
+  left: 40px;
+  top: 400px;
+  color: black;
+  font-family: arial;
+  font-size: 40px;
+}
+h2{
+  color: dimgrey;
+  font-family: arial;
+  font-size: 30px;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 40px;
+  top: 470px;
+}
+.baniere{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+.chiffres{
+  display: flex;
+  position: absolute;
+  top: 600px;
+  left: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: dimgray;
+}
+mark{
+  background-color: transparent;
+  font-size: 30px;
+  color: dimgrey;
+  font-weight: lighter;
+  padding-top: 5px;
+}
+.profil{
+  position: absolute;
+  left: 40px;
+  top: 200px;
+  width: 180px;
+  height: 180px;
+  border-radius: 400px;
+  border: black solid 1px;
+}
+.tweet{
+  text-align: left;
+}
+.profiltweet{
+  margin-left: 4%;
+  margin-top: 10px;
+  width: 14%;
+  height: 140px;
+  border-radius: 400px;
+  border: black solid 1px;
+}
+.nameblase{
+  display: flex;
+}
+.name{
+  margin-top: 30px;
+  margin-left: 0px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.blase{
+  margin-top: 30px;
+  margin-left: 20px;
+  color: dimgray;
+  font-family: arial;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.actions{
+  position: absolute;
+  top: 700px;
+  display: flex;
+  text-align: left;
+  padding-left: 40px;
+}
+.actionsp{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: dimgrey;
+  margin-right: 120px;
+  font-weight: bold;
+}
+#actif{
+  color: #1e90ff;
+}
+.post{
+  margin-top: 0px;
+  border-bottom: 1px solid dimgray;
+  border-top: 1px solid dimgray;
+  padding-bottom: 30px;
+  text-align: left;
+  display: flex;
+}
+.actionspost{
+  display: flex;
+  text-align: left;
+  margin-top: 10px;
+  width: 80%;
+  justify-content: space-between;
+}
+.infos{
+  display: block;
+  width: 87%;
+  padding-left: 20px;
+}
+.infos img{
+  width: 40px;
+  height: 40px;
+}
+.barre{
+  position: absolute;
+  top: 800px;
+  left: 40px;
+  background-color: #1e90ff;
+  width: 120px;
+  height: 8px;
+}
+.description{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+  text-align: left;
+  font-weight: lighter;
+  color: dimgray;
+  line-height: 50px;
+  width: 96%;
+  margin-top: -20px;
+}
+footer{
+  height: 0;
+  background-color: black;
+  display: block;
+  text-align: center;
+  margin-top: 0;
+}
+footer h2{
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+ padding-top: 10px;
+}
+
