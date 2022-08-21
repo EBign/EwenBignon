@@ -5,7 +5,7 @@ html{
 body{
 height: 3000px;
 width: 100%;
-background-color: rgb(29, 24, 41);
+background-color: floralwhite;
 margin: 0;
 padding: 0;
 text-align: center;
@@ -26,18 +26,22 @@ h1{
   position: absolute;
   left: 150px;
   top: 50px;
-  color: floralwhite;
+  color: black;
   font-family: arial;
   font-size: 40px;
 }
 h2{
-  color: floralwhite;
+  color: black;
   font-family: arial;
   font-size: 30px;
   letter-spacing: 2px;
   position: absolute;
   left: 40px;
   top: 420px;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 .tableau{
   width: 600px;
@@ -66,9 +70,8 @@ h2{
   left: 40px;
   top: 500px;
   font-size: 32px;
-  font-weight: lighter;
   line-height: 50px;
-  color: floralwhite;
+  color: black;
   text-align: left;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-right: 50px;
@@ -82,7 +85,7 @@ p{
   transform: translateX(-50%);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 70px;
-  color: floralwhite;
+  color: black;
 }
 .profil{
   position: absolute;
@@ -91,7 +94,7 @@ p{
   width: 200px;
   height: 200px;
   border-radius: 400px;
-  border: #1e90ff solid 1px;
+  border: black solid 1px;
 }
 .bouttons{
   width: 100%;
