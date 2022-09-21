@@ -124,7 +124,7 @@ span::before{
 	font-size: 24px;
     color: floralwhite;
     padding: 10px;
-	content: "«ça part en cahuète !»";
+	content: "« ça part en cahuète ! »";
 	margin-left: 0;
 	animation: aaa 8s;
 }
@@ -175,7 +175,7 @@ span::before{
 		content: "Penseur"
     }
     87%{
-		content: "«ça part en cahuète !»"
+		content: "« ça part en cahuète ! »"
     }
 }
 p{
