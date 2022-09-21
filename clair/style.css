@@ -124,7 +124,7 @@ span::before{
 	font-size: 24px;
     color: black;
     padding: 10px;
-	content: "« Pour un monde oeuvriste !»";
+	content: "« ça part en cahuète ! »";
 	margin-left: 0;
 	animation: aaa 8s;
 }
@@ -175,7 +175,7 @@ span::before{
 		content: "Penseur"
     }
     87%{
-		content: "« Pour un monde oeuvriste ! »"
+		content: "« ça part en cahuète ! »"
     }
 }
 p{
